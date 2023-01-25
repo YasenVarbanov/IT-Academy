@@ -1,0 +1,66 @@
+body {
+    font-family: arial;
+    background-color: silver;
+    margin: 1px;
+}
+h1, h2, header {
+    font-family: 'Mr Dafoe', cursive, bold;
+}
+header {
+    font-size: 20px;
+    text-align: left;
+    position: relative;
+    margin: 30px;
+}
+h1 {
+    text-align: center;
+    border: 3px dotted ;
+    width: 10%;
+    height: auto;
+    margin: auto;
+    background-color: grey;
+}
+section {
+    text-align: right;
+    margin-left: 20%;
+    font-size: 17px;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+#NX,#RX,#LS,#LFA {
+    display: flex;
+    position: relative;
+    border: 4px solid;
+    width: 650px;
+    height: auto;
+    left: 2%;
+    margin: 29px;
+    align-items: center;
+}
+#NX, #LS {
+    border-left: none;
+}
+#RX, #LFA {
+    border-right: none;
+}
+p {
+    left: 10%;
+    position: relative;
+    text-align: justify;
+    width: 250px;
+    height: auto;
+
+}
+img {
+    position: relative;
+    width: 300px;
+    height: auto;
+    right: -15%;
+}
+mark {
+    color: rgb(148, 2, 2);
+    background: none;
+    font-weight: bold;
+}

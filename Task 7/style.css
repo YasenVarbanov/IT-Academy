@@ -1,0 +1,20 @@
+body {
+    font-family: "times new roman";
+    font-style: italic;
+    text-align: center;
+}
+header {
+    font-family: arial;
+    font-size: 40px;
+    color: blue;
+    margin-bottom: 50px;
+}
+p {
+    font-size: 20px;
+}
+#p1 {
+    color: green;
+}
+#p2 {
+    color: red;
+}
